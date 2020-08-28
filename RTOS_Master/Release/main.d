@@ -13,9 +13,10 @@ main.d main.o: .././main.c .././FreeRTOS.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  .././projdefs.h .././portable.h .././deprecated_definitions.h \
- .././portmacro.h .././mpu_wrappers.h .././task.h .././list.h .././UART.h \
- .././ATMEGA32_Regs.h .././STD.h .././BIT_Math.h .././DIO.h \
- .././Bit_Math.h .././SPI.h .././LCD.h .././LCD_Cfg.h
+ .././portmacro.h .././mpu_wrappers.h .././task.h .././list.h \
+ .././semphr.h .././queue.h .././UART.h .././ATMEGA32_Regs.h .././STD.h \
+ .././BIT_Math.h .././DIO.h .././Bit_Math.h .././SPI.h .././LCD.h \
+ .././LCD_Cfg.h
 
 .././FreeRTOS.h:
 
@@ -58,6 +59,10 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././task.h:
 
 .././list.h:
+
+.././semphr.h:
+
+.././queue.h:
 
 .././UART.h:
 
